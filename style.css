@@ -5,6 +5,7 @@
   margin-top: 100px;
 }
 
+
 /* BLOCCO LEZIONI */
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
@@ -26,6 +27,13 @@
 @media screen and (max-width: 420px) {
     #lezioni .row > .left, #lezioni .row > .right{
         float: none;
+        width: 420px;
+    }
+    /* perche h1 l'ho prende su tutti??? */
+    h1 {
+        text-align: left;
+        margin-left: 70px;
+
     }
 }
 
@@ -46,6 +54,7 @@
     #steps .row > .central,
     #steps .row > .right{
         float: none;
+        margin-left: 50px;
     }
 }
 
@@ -65,6 +74,14 @@
   background-color:#428bca;
   border-radius:50%;
   padding:30px
+}
+
+@media screen and (max-width: 420px) {
+     #why .row > .first,
+     #why .row > .second,
+     #why .row > .third {
+        width: 420px;
+    }
 }
 
 /* COMMON */
